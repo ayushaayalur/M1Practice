@@ -17,10 +17,15 @@ public class MainActivity extends AppCompatActivity {
         int iii = i + ii;
     }
 
-    public void NewMethod() {
-        int i = 3 + 3;
+    public void doSomeWork() {
+        int i = 687;
+        int ii = 930;
 
-        String test = "Test";
-        Boolean True = false;
+        String iString = Integer.toString(i);
+        String iiString;
+
+        if(i > 100) {
+            iiString = Integer.toString(ii + 6);
+        }
     }
 }
