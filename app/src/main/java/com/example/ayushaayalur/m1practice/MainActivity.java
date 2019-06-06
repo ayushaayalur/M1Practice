@@ -21,5 +21,6 @@ public class MainActivity extends AppCompatActivity {
         int i = 2 + 2;
 
         String test = "Test";
+        String anotherTest = "another Test";
     }
 }
